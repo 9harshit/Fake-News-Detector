@@ -1,8 +1,6 @@
 # Fake-News-Detector
 
-Raw Dataset is downloaded from kaggle : https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
-
-Cleaned and formatted dataset can be obtained from this google drive : https://drive.google.com/drive/folders/1PLI2Oid2aSthzDBsESYe3hR45ud4by6P?usp=sharing
+Dataset is downloaded from kaggle : https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset
 
 cnn_text.py contains code for text classification using 1D CNN model.
 
