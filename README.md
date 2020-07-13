@@ -10,4 +10,4 @@ rnn_text.py contains code for text classification using LSTM model.
 
 bi_rnn.py contains code for text classification using Bi directional-LSTM model.
 
-Ensemble.py containes code for all the model Ensembled to imporve the accuracy of the system.
+Ensemble.py containes code for all the model Ensembled to improve the accuracy of the system.
