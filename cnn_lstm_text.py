@@ -89,7 +89,7 @@ model.fit(x_train, y_train,
           epochs=epochs,
           validation_data=(x_test, y_test))
 
-#model.save("cnn_lstm.h5")
+#model.save("cnn_lstm.hdf5")
 
 
 pred = model.predict_classes(x_test)

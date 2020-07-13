@@ -61,7 +61,7 @@ model.fit(x_train, y_train,
           epochs=2,
           validation_data=(x_test, y_test))
 
-#model.save("rnn.h5")
+#model.save("rnn.hdf5")
 
 pred = model.predict_classes(x_test)
 

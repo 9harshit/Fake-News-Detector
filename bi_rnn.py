@@ -60,7 +60,7 @@ model.fit(x_train, y_train,
           epochs=4,
           validation_data=[x_test, y_test])
 
-#model.save("bin.h5")
+#model.save("bin.hdf5")
 
 pred = model.predict_classes(x_test)
 

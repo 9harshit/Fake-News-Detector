@@ -15,9 +15,9 @@ X = data["text"]
 y = data['Label']
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=45)
-X_train.to_csv('x_train.csv')
-y_train.to_csv('y_train.csv')
+X_train.to_csv('x_train.csv', index = False)
+y_train.to_csv('y_train.csv', index = False)
 
-X_test.to_csv('x_test.csv')
-y_test.to_csv('y_test.csv')
+X_test.to_csv('x_test.csv', index = False)
+y_test.to_csv('y_test.csv', index = False)
 
